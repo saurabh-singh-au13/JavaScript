@@ -492,24 +492,24 @@ modern javascript came in es-6
 // }
 // console.log(fizzBuzz(1234456678990));
 
-function checkSpeed( speed ){
-    const speedLimit = 70;
-    const kmPerPoints = 5;
+// function checkSpeed( speed ){
+//     const speedLimit = 70;
+//     const kmPerPoints = 5;
 
-    if ( speed < speedLimit + kmPerPoints )
-        console.log("OK");
-    else{
-        const points = Math.floor((speed - speedLimit) / kmPerPoints);
-        if (points >= 12 )
-            console.log("points = ",points,"License Suspended")
-        else{
-            console.log('points', points);
-        }
-    }
-}
-checkSpeed(100130);
+//     if ( speed < speedLimit + kmPerPoints )
+//         console.log("OK");
+//     else{
+//         const points = Math.floor((speed - speedLimit) / kmPerPoints);
+//         if (points >= 12 )
+//             console.log("points = ",points,"License Suspended")
+//         else{
+//             console.log('points', points);
+//         }
+//     }
+// }
+// checkSpeed(100130);
 
-
+// -----------------By saurabh Kumar singh
 
 
 
